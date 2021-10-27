@@ -1,6 +1,6 @@
 # HX711
 
-This code is for Rasperry Pi Zero, 2, 3 and 4 written in Python 3.
+This code is for Rasperry Pi Zero, 2, 3 and 4 written in Python 3.  
 Distributed from https://github.com/gandalf15/HX711
 
 [Description]
