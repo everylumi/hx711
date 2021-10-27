@@ -1,1 +1,1 @@
-from .HX711 import hx711
+from . import hx711

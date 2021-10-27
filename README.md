@@ -23,9 +23,9 @@ Great explanation of strain gauges: https://www.allaboutcircuits.com/textbook/di
 ## Installation
 
 ```sh
-cd ~/Downloads/ && sudo rm -rf hx711 
+cd ~/Downloads/ && sudo rm -rf hx711
 git clone https://github.com/everylumi/hx711.git
-cd hx711/  
+cd hx711/hx711
 sudo python3 setup.py install #Python3  
 ```
 
