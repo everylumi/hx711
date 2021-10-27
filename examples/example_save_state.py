@@ -6,6 +6,7 @@ import RPi.GPIO as GPIO  # import GPIO
 from hx711 import HX711  # import the class HX711
 
 try:
+    GPIO.setwarnings(False)   # Disabled GPIO Set Warning
     GPIO.setmode(GPIO.BCM)  # set GPIO pin mode to BCM numbering
     # Create an object hx which represents your real hx711 chip
     # Required input parameters are only 'dout_pin' and 'pd_sck_pin'
