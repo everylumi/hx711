@@ -1,4 +1,3 @@
-#from setuptools import find_packages, setup
 from setuptools import setup
 
 def readme():
@@ -18,7 +17,6 @@ setup(
     ],
     keywords='hx711 raspberry',
     url="https://github.com/everylumi/hx711",
-    packages=['hx711'],
     python_requires='>=3',
     zip_safe=False,
     long_description=readme()
