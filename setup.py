@@ -6,7 +6,7 @@ def readme():
 
 setup(
     name='hx711',
-    packages=['.'],
+    packages=['hx711'],
     version='1.0.0',
     description='hx711 chip interface library',
     author_email="everylumi@gmail.com",
