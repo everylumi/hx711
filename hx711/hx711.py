@@ -83,7 +83,7 @@ class HX711:
         # after changing channel or gain it has to wait 50 ms to allow adjustment.
         # the data before is garbage and cannot be used.
         self._read()
-        time.sleep(0.5)
+        time.sleep(0.05)
 
     def set_gain_A(self, gain):
         """
@@ -105,7 +105,7 @@ class HX711:
         # after changing channel or gain it has to wait 50 ms to allow adjustment.
         # the data before is garbage and cannot be used.
         self._read()
-        time.sleep(0.5)
+        time.sleep(0.05)
 
     def zero(self, readings=30):
         """

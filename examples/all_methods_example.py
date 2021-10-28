@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 import RPi.GPIO as GPIO  # import GPIO
 from hx711 import HX711  # import the class HX711
-from hx711 import outliers_filter
 
 try:
     GPIO.setwarnings(False)   # Disabled GPIO Set Warning
@@ -165,7 +164,7 @@ try:
     # To get the current data filter that is set
     current_filter = hx.get_data_filter()
     # To set a new data filter
-    hx.set_data_filter(outliers_filter)
+    hx.set_data_filter(current_filter)
     # By default it is outliers_filter.
     # If you want to create your own filter, the requirement is simple.
     # It has to take a single argument that is a list of int and return list of int
